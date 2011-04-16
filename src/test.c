@@ -1,9 +1,12 @@
 /*!
  * \file test.c
- * \author Copyright (C) 2008 by Bert Timmerman <bert.timmerman@xs4all.nl>
+ *
  * \brief Test program.
  *
- * <hr>
+ * <b>Author:</b>\n
+ * Copyright (C) 2008, 2011 by Bert Timmerman <bert.timmerman@xs4all.nl>
+ * 
+ * <b>License:</b>\n
  * This program is free software; you can redistribute it and/or modify\n
  * it under the terms of the GNU General Public License as published by\n
  * the Free Software Foundation; either version 2 of the License, or\n
