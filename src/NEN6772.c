@@ -50,7 +50,7 @@ UC_11_5_1
 
 /*!
  * \brief Unity Check on bending strength in a beam-column connection
- * (single branching beam on column).
+ * (single beam branching on column).
  *
  * \image html NEN6772_11.5-2.gif 
  */
@@ -69,7 +69,7 @@ UC_11_5_2
 
 /*!
  * \brief Unity Check on bending strength in a beam-column connection
- * (symmetrical branching beams on column).
+ * (symmetrical beams branching on column).
  *
  * \image html NEN6772_11.5-3.gif 
  */
