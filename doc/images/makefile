@@ -40,7 +40,10 @@ all: \
 	NEN6772_11.2-4.gif \
 	NEN6772_11.5-1.gif \
 	NEN6772_11.5-2.gif \
-	NEN6772_11.5-3.gif
+	NEN6772_11.5-3.gif \
+	NEN6772_11.5-4.gif \
+	NEN6772_11.5-5.gif \
+	NEN6772_11.5-6.gif
 
 %.gif: %.tex
 	./textogif -res 0.2 -dpi 150 $<
