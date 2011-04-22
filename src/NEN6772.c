@@ -30,8 +30,62 @@
 
 
 /*!
- * \brief Unity Check on bending strength in a beam-column connection
- * (beam at the end of a column).
+ * \brief NEN6772 9.2-1: Calculate the design tensile stress for rivets.
+ * 
+ * \image html NEN6772_9.2-1.gif 
+ */
+double
+f_t_k_d
+(
+    double f_t_k_rep,
+    /*!< The repesentative tensile stress for a S235 rivet. */
+    double gamma_M
+    /*!< Material factor, defaults to 1. */
+)
+{
+        return (f_t_k_rep / gamma_M);
+}
+
+
+/*!
+ * \brief NEN6772 9.2-2: Calculate the design value for friction.
+ * 
+ * \image html NEN6772_9.2-2.gif 
+ */
+double
+mu_d
+(
+    double mu_rep,
+    /*!< The repesentative value for friction. */
+    double gamma_M
+    /*!< Material factor, defaults to 1. */
+)
+{
+        return (mu_rep / gamma_M);
+}
+
+
+/*!
+ * \brief NEN6772 9.2-3: Calculate the design stress for injection bolts.
+ * 
+ * \image html NEN6772_9.2-3.gif 
+ */
+double
+f_b_d
+(
+    double f_b_rep,
+    /*!< The repesentative stress for injection bolts. */
+    double gamma_M
+    /*!< Material factor, defaults to 1. */
+)
+{
+        return (f_b_rep / gamma_M);
+}
+
+
+/*!
+ * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
+ * in a beam-column connection (beam at the end of a column).
  * 
  * \image html NEN6772_11.5-1.gif 
  */
@@ -49,8 +103,8 @@ UC_11_5_1
 
 
 /*!
- * \brief Unity Check on bending strength in a beam-column connection
- * (single beam branching on a column).
+ * \brief NEN6772 11.5-2: Calculate the Unity Check on bending strength
+ * in a beam-column connection (single beam branching on a column).
  *
  * \image html NEN6772_11.5-2.gif 
  */
@@ -68,8 +122,9 @@ UC_11_5_2
 
 
 /*!
- * \brief Unity Check on bending strength in a beam-column connection
- * (symmetrical beams branching on a column).
+ * \brief NEN6772 11.5-3: Calculate the Unity Check on bending strength
+ * in a beam-column connection (symmetrical beams branching on a
+ * column).
  *
  * \image html NEN6772_11.5-3.gif 
  */
@@ -93,8 +148,9 @@ UC_11_5_3
 
 
 /*!
- * \brief Unity Check on bending strength in a beam-column connection
- * (first of two beams branching on a column).
+ * \brief NEN6772 11.5-4: Calculate the Unity Check on bending strength
+ * in a beam-column connection (first of two beams branching on a
+ * column).
  *
  * \image html NEN6772_11.5-4.gif 
  */
@@ -112,8 +168,9 @@ UC_11_5_4
 
 
 /*!
- * \brief Unity Check on bending strength in a beam-column connection
- * (second of two beams branching on a column).
+ * \brief NEN6772 11.5-5: Calculate the Unity Check on bending strength
+ * in a beam-column connection (second of two beams branching on a
+ * column).
  *
  * \image html NEN6772_11.5-5.gif 
  */
@@ -131,8 +188,9 @@ UC_11_5_5
 
 
 /*!
- * \brief Unity Check on bending strength in a beam-column connection
- * (symmetrical beams branching on a column).
+ * \brief NEN6772 11.5-6: Calculate the Unity Check on bending strength
+ * in a beam-column connection (symmetrical beams branching on a
+ * column).
  *
  * \image html NEN6772_11.5-6.gif 
  */
