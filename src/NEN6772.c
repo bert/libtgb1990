@@ -30,15 +30,18 @@
 
 
 /*!
- * \brief NEN6772 9.2-1: Calculate the design tensile stress for rivets.
+ * \brief NEN6772 9.2-1: Calculate the design value for the tensile
+ * stress for rivets.
  * 
- * \image html NEN6772_9.2-1.gif 
+ * \image html NEN6772_9.2-1.gif
+ * 
+ * \retval f_t_k_d The design value for the tensile stress for rivets.
  */
 double
 f_t_k_d
 (
     double f_t_k_rep,
-    /*!< The repesentative tensile stress for a S235 rivet. */
+    /*!< The representative tensile stress for a S235 rivet. */
     double gamma_M
     /*!< Material factor, defaults to 1. */
 )
@@ -50,7 +53,9 @@ f_t_k_d
 /*!
  * \brief NEN6772 9.2-2: Calculate the design value for friction.
  * 
- * \image html NEN6772_9.2-2.gif 
+ * \image html NEN6772_9.2-2.gif
+ * 
+ * \retval mu_d The design value for friction.
  */
 double
 mu_d
@@ -68,7 +73,9 @@ mu_d
 /*!
  * \brief NEN6772 9.2-3: Calculate the design stress for injection bolts.
  * 
- * \image html NEN6772_9.2-3.gif 
+ * \image html NEN6772_9.2-3.gif
+ * 
+ * \retval f_b_d The design value for the stress for injection bolts.
  */
 double
 f_b_d
@@ -87,7 +94,9 @@ f_b_d
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  * 
- * \image html NEN6772_11.5-1.gif 
+ * \image html NEN6772_11.5-1.gif
+ * 
+ * \retval UC_11_5_1 The Unity Check value.
  */
 double
 UC_11_5_1
@@ -106,7 +115,9 @@ UC_11_5_1
  * \brief NEN6772 11.5-2: Calculate the Unity Check on bending strength
  * in a beam-column connection (single beam branching on a column).
  *
- * \image html NEN6772_11.5-2.gif 
+ * \image html NEN6772_11.5-2.gif
+ * 
+ * \retval UC_11_5_2 The Unity Check value.
  */
 double
 UC_11_5_2
@@ -126,7 +137,9 @@ UC_11_5_2
  * in a beam-column connection (symmetrical beams branching on a
  * column).
  *
- * \image html NEN6772_11.5-3.gif 
+ * \image html NEN6772_11.5-3.gif
+ * 
+ * \retval UC_11_5_3 The Unity Check value.
  */
 double
 UC_11_5_3
@@ -152,7 +165,9 @@ UC_11_5_3
  * in a beam-column connection (first of two beams branching on a
  * column).
  *
- * \image html NEN6772_11.5-4.gif 
+ * \image html NEN6772_11.5-4.gif
+ * 
+ * \retval UC_11_5_4 The Unity Check value.
  */
 double
 UC_11_5_4
@@ -172,7 +187,9 @@ UC_11_5_4
  * in a beam-column connection (second of two beams branching on a
  * column).
  *
- * \image html NEN6772_11.5-5.gif 
+ * \image html NEN6772_11.5-5.gif
+ * 
+ * \retval UC_11_5_5 The Unity Check value.
  */
 double
 UC_11_5_5
@@ -192,7 +209,9 @@ UC_11_5_5
  * in a beam-column connection (symmetrical beams branching on a
  * column).
  *
- * \image html NEN6772_11.5-6.gif 
+ * \image html NEN6772_11.5-6.gif
+ * 
+ * \retval UC_11_5_6 The Unity Check value.
  */
 double
 UC_11_5_6
