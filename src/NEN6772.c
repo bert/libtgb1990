@@ -107,7 +107,7 @@ UC_11_1_1
     /*!< Maximum swaging capacity. */
 )
 {
-        return (F_c_s_d) / F_c_u_d);
+        return (F_c_s_d / F_c_u_d);
 }
 
 
@@ -149,7 +149,32 @@ UC_11_1_3
     /*!< Maximum tension capacity. */
 )
 {
-        return (F_t_s_d) / F_t_u_d);
+        return (F_t_s_d / F_t_u_d);
+}
+
+
+/*!
+ * \brief NEN6772 11.1-4: Calculate the Unity Check on tension and shear
+ * force on a rivet.
+ * 
+ * \image html NEN6772_11.1-4.gif
+ * 
+ * \retval UC_11_1_4 The Unity Check value.
+ */
+double
+UC_11_1_4
+(
+    double F_t_s_d,
+    /*!< Actual tension force. */
+    double F_v_s_d,
+    /*!< Actual shear force. */
+    double F_t_u_d,
+    /*!< Maximum tension capacity. */
+    double F_v_u_d
+    /*!< Maximum shear capacity. */
+)
+{
+        return ((F_v_s_d / F_v_u_d) + (F_t_s_d / (1.4 * F_t_u_d)));
 }
 
 
