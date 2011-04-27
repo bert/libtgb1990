@@ -112,6 +112,27 @@ UC_11_1_1
 
 
 /*!
+ * \brief NEN6772 11.1-2: Calculate the Unity Check on shear force
+ * on a rivet.
+ * 
+ * \image html NEN6772_11.1-2.gif
+ * 
+ * \retval UC_11_1_2 The Unity Check value.
+ */
+double
+UC_11_1_2
+(
+    double F_v_s_d,
+    /*!< Actual shear force. */
+    double F_v_u_d
+    /*!< Maximum shear capacity. */
+)
+{
+        return (F_v_s_d) / F_v_u_d);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  * 
