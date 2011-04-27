@@ -91,6 +91,27 @@ f_b_d
 
 
 /*!
+ * \brief NEN6772 11.1-1: Calculate the Unity Check on swaging force
+ * on a rivet.
+ * 
+ * \image html NEN6772_11.1-1.gif
+ * 
+ * \retval UC_11_1_1 The Unity Check value.
+ */
+double
+UC_11_1_1
+(
+    double F_c_s_d,
+    /*!< Actual swaging force. */
+    double F_c_u_d
+    /*!< Maximum swaging capacity. */
+)
+{
+        return (F_c_s_d) / F_c_u_d);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  * 
