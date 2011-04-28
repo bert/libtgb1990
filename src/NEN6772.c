@@ -209,6 +209,30 @@ F_c_u_d
 
 
 /*!
+ * \brief NEN6772 11.1-6: Calculation of the ultimate capacity for the
+ * shear capacity of a rivet.
+ * 
+ * \image html NEN6772_11.1-6.gif
+ * 
+ * \retval F_v_u_d The calculated value for the ultimate shear
+ * capacity of a rivet.
+ */
+double
+F_v_u_d
+(
+    double f_t_k_d,
+    /*!< Tensile strength of the considered rivet material. */
+    double A_k,
+    /*!< Nominal shear area surface of the rivet. */
+    double gamma_M
+    /*!< The model factor, defaults to 1.25. */
+)
+{
+        return ((0.6 * f_t_k_d * A_k) / gamma_M);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  * 
