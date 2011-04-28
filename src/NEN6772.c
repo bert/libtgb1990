@@ -179,6 +179,36 @@ UC_11_1_4
 
 
 /*!
+ * \brief NEN6772 11.1-5: Calculation of the ultimate capacity for the
+ * swaging capacity of a rivet.
+ * 
+ * \image html NEN6772_11.1-5.gif
+ * 
+ * \retval F_c_u_d The calculated value for the ultimate swaging
+ * capacity of a rivet.
+ */
+double
+F_c_u_d
+(
+    double alpha_c,
+    /*!< The swaging factor. */
+    double alpha_red_1,
+    /*!< Geometry factor for edge distances and pitch between holes. */
+    double f_t_d,
+    /*!< Tensile strength of the considered plate material. */
+    double d_k_nom,
+    /*!< Nominal diameter of the rivet. */
+    double t,
+    /*!< The thickness of the considered plate material. */
+    double gamma_M
+    /*!< The model factor, defaults to 1.25. */
+)
+{
+        return ((2.5 * alpha_c * alpha_red_1 * f_t_d * d_k_nom * t) / gamma_M);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  * 
