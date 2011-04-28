@@ -257,6 +257,51 @@ F_t_u_d
 
 
 /*!
+ * \brief NEN6772 : Calculation of the swaging factor for a rivet
+ * connection.
+ * 
+ * \image html NEN6772_alpha_c_swaging.gif
+ * 
+ * \retval alpha_c_swaging The calculated swaging factor of a rivet
+ * connection.
+ */
+double
+alpha_c
+(
+    double e_1_min,
+    /*!< Minimum distance between the rivets and the edge of the plate. */
+    double s_1_min,
+    /*!< Minimum distance between rows of rivets. */
+    double d_k_nom,
+    /*!< Nominal diameter of the rivet. */
+    double f_t_k_rep,
+    /*!< The representative tensile strength of the considered rivet
+     * material. */
+    double f_t_rep
+    /*!< The representative tensile strength of the considered plate
+     * material. */
+)
+{
+    double _alpha_c;
+
+    _alpha_c = 1.0;
+    if (_alpha_c >= (e_1_min / (3 * d_k_nom)))
+    {
+        _alpha_c = e_1_min / (3 * d_k_nom);
+    }
+    if (_alpha_c >= (s_1_min / (3 * d_k_nom)) - 0.25)
+    {
+        _alpha_c = (s_1_min / (3 * d_k_nom)) - 0.25;
+    }
+    if (_alpha_c >= (f_t_k_rep / f_t_rep))
+    {
+        _alpha_c = f_t_k_rep / f_t_rep;
+    }
+    return (_alpha_c);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  * 

@@ -10,6 +10,7 @@ all: \
 	NEN6772_11.1-5.gif \
 	NEN6772_11.1-6.gif \
 	NEN6772_11.1-7.gif \
+	NEN6772_alpha_c_swaging.gif \
 	NEN6772_11.1-8.gif \
 	NEN6772_11.1-9.gif \
 	NEN6772_11.1-10.gif \
