@@ -179,8 +179,8 @@ UC_11_1_4
 
 
 /*!
- * \brief NEN6772 11.1-5: Calculation of the ultimate capacity for the
- * swaging capacity of a rivet.
+ * \brief NEN6772 11.1-5: Calculation of the ultimate swaging capacity
+ * for a rivet.
  * 
  * \image html NEN6772_11.1-5.gif
  * 
@@ -209,8 +209,8 @@ F_c_u_d
 
 
 /*!
- * \brief NEN6772 11.1-6: Calculation of the ultimate capacity for the
- * shear capacity of a rivet.
+ * \brief NEN6772 11.1-6: Calculation of the ultimate shear capacity
+ * for a rivet.
  * 
  * \image html NEN6772_11.1-6.gif
  * 
@@ -223,7 +223,31 @@ F_v_u_d
     double f_t_k_d,
     /*!< Tensile strength of the considered rivet material. */
     double A_k,
-    /*!< Nominal shear area surface of the rivet. */
+    /*!< Nominal area of the rivet hole. */
+    double gamma_M
+    /*!< The model factor, defaults to 1.25. */
+)
+{
+        return ((0.6 * f_t_k_d * A_k) / gamma_M);
+}
+
+
+/*!
+ * \brief NEN6772 11.1-7: Calculation of the ultimate tension capacity
+ * for a rivet.
+ * 
+ * \image html NEN6772_11.1-7.gif
+ * 
+ * \retval F_t_u_d The calculated value for the ultimate tension
+ * capacity of a rivet.
+ */
+double
+F_t_u_d
+(
+    double f_t_k_d,
+    /*!< Tensile strength of the considered rivet material. */
+    double A_k,
+    /*!< Nominal area of the rivet hole. */
     double gamma_M
     /*!< The model factor, defaults to 1.25. */
 )
