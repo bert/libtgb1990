@@ -302,6 +302,38 @@ alpha_c
 
 
 /*!
+ * \brief NEN6772 : Calculation of the reduction factor for a rivet
+ * connection.
+ *
+ * \retval alpha_red_1 The calculated reduction factor of a rivet
+ * connection.
+ */
+double
+alpha_red_1
+(
+    double d_k_nom,
+    /*!< Nominal diameter of the rivet. */
+    double e_2,
+    /*!< Distance between the rivets and the edge of the plate. */
+    double s_2
+    /*!< Distance between rows of rivets. */
+)
+{
+    double _alpha_red_1;
+
+    if (e_2 >= (1.5 * d_k_nom) && s_2 >= (3.0 * d_k_nom))
+    {
+            _alpha_red_1 = 1.0;
+    }
+    if (e_2 <= (1.2 * d_k_nom) && s_2 <= (2.4 * d_k_nom))
+    {
+            _alpha_red_1 = 0.67;
+    }
+    return (_alpha_red_1);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  * 
