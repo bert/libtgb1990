@@ -32,9 +32,11 @@
 /*!
  * \brief NEN6772 9.2-1: Calculate the design value for the tensile
  * stress for rivets.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_9.2-1.gif
- * 
+ *
  * \retval f_t_k_d The design value for the tensile stress for rivets.
  */
 double
@@ -52,9 +54,11 @@ f_t_k_d
 
 /*!
  * \brief NEN6772 9.2-2: Calculate the design value for friction.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_9.2-2.gif
- * 
+ *
  * \retval mu_d The design value for friction.
  */
 double
@@ -72,9 +76,11 @@ mu_d
 
 /*!
  * \brief NEN6772 9.2-3: Calculate the design stress for injection bolts.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_9.2-3.gif
- * 
+ *
  * \retval f_b_d The design value for the stress for injection bolts.
  */
 double
@@ -93,9 +99,11 @@ f_b_d
 /*!
  * \brief NEN6772 11.1-1: Calculate the Unity Check on swaging force
  * on a rivet.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.1-1.gif
- * 
+ *
  * \retval UC_11_1_1 The Unity Check value.
  */
 double
@@ -114,9 +122,12 @@ UC_11_1_1
 /*!
  * \brief NEN6772 11.1-2: Calculate the Unity Check on shear force
  * on a rivet.
- * 
+ *
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.1-2.gif
- * 
+ *
  * \retval UC_11_1_2 The Unity Check value.
  */
 double
@@ -135,9 +146,11 @@ UC_11_1_2
 /*!
  * \brief NEN6772 11.1-3: Calculate the Unity Check on tension force
  * on a rivet.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.1-3.gif
- * 
+ *
  * \retval UC_11_1_3 The Unity Check value.
  */
 double
@@ -156,9 +169,11 @@ UC_11_1_3
 /*!
  * \brief NEN6772 11.1-4: Calculate the Unity Check on tension and shear
  * force on a rivet.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.1-4.gif
- * 
+ *
  * \retval UC_11_1_4 The Unity Check value.
  */
 double
@@ -181,9 +196,11 @@ UC_11_1_4
 /*!
  * \brief NEN6772 11.1-5: Calculation of the ultimate swaging capacity
  * for a rivet.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.1-5.gif
- * 
+ *
  * \retval F_c_u_d The calculated value for the ultimate swaging
  * capacity of a rivet.
  */
@@ -211,9 +228,11 @@ F_c_u_d
 /*!
  * \brief NEN6772 11.1-6: Calculation of the ultimate shear capacity
  * for a rivet.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.1-6.gif
- * 
+ *
  * \retval F_v_u_d The calculated value for the ultimate shear
  * capacity of a rivet.
  */
@@ -235,9 +254,11 @@ F_v_u_d
 /*!
  * \brief NEN6772 11.1-7: Calculation of the ultimate tension capacity
  * for a rivet.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.1-7.gif
- * 
+ *
  * \retval F_t_u_d The calculated value for the ultimate tension
  * capacity of a rivet.
  */
@@ -259,9 +280,11 @@ F_t_u_d
 /*!
  * \brief NEN6772 : Calculation of the swaging factor for a rivet
  * connection.
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_alpha_c_swaging.gif
- * 
+ *
  * \retval alpha_c_swaging The calculated swaging factor of a rivet
  * connection.
  */
@@ -305,6 +328,8 @@ alpha_c
  * \brief NEN6772 : Calculation of the reduction factor for a rivet
  * connection.
  *
+ * \version NEN 6772:2000.
+ *
  * \retval alpha_red_1 The calculated reduction factor of a rivet
  * connection.
  */
@@ -336,7 +361,9 @@ alpha_red_1
 /*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
- * 
+ *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.5-1.gif
  * 
  * \retval UC_11_5_1 The Unity Check value.
@@ -358,8 +385,10 @@ UC_11_5_1
  * \brief NEN6772 11.5-2: Calculate the Unity Check on bending strength
  * in a beam-column connection (single beam branching on a column).
  *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.5-2.gif
- * 
+ *
  * \retval UC_11_5_2 The Unity Check value.
  */
 double
@@ -380,8 +409,10 @@ UC_11_5_2
  * in a beam-column connection (symmetrical beams branching on a
  * column).
  *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.5-3.gif
- * 
+ *
  * \retval UC_11_5_3 The Unity Check value.
  */
 double
@@ -408,8 +439,10 @@ UC_11_5_3
  * in a beam-column connection (first of two beams branching on a
  * column).
  *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.5-4.gif
- * 
+ *
  * \retval UC_11_5_4 The Unity Check value.
  */
 double
@@ -430,8 +463,10 @@ UC_11_5_4
  * in a beam-column connection (second of two beams branching on a
  * column).
  *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.5-5.gif
- * 
+ *
  * \retval UC_11_5_5 The Unity Check value.
  */
 double
@@ -452,8 +487,10 @@ UC_11_5_5
  * in a beam-column connection (symmetrical beams branching on a
  * column).
  *
+ * \version NEN 6772:2000.
+ *
  * \image html NEN6772_11.5-6.gif
- * 
+ *
  * \retval UC_11_5_6 The Unity Check value.
  */
 double
