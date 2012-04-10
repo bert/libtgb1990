@@ -4,7 +4,7 @@
  * \brief Implementation of formulas in NEN6772 (TGB 1990 - Steel structures - Connections).
  *
  * <b>Author:</b>\n
- * Copyright (C) 2011 by Bert Timmerman <bert.timmerman@xs4all.nl>
+ * Copyright (C) 2011 ... 2012 by Bert Timmerman <bert.timmerman@xs4all.nl>
  * 
  * <b>License:</b>\n
  * This program is free software; you can redistribute it and/or modify\n
