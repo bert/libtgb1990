@@ -405,6 +405,33 @@ t_ef
 
 
 /*!
+ * \brief NEN6772 11.1-10: Calculate the Unity Check on tension and
+ * shear force on a countersunk rivet or bolt.
+ *
+ * \version NEN 6772:2000.
+ *
+ * \image html NEN6772_11.1-10.gif
+ *
+ * \retval UC_11_1_10 The Unity Check value.
+ */
+double
+UC_11_1_10
+(
+    double F_t_s_d,
+    /*!< Actual tension force. */
+    double F_v_s_d,
+    /*!< Actual shear force. */
+    double F_t_u_d,
+    /*!< Maximum tension capacity. */
+    double F_v_u_d
+    /*!< Maximum shear capacity. */
+)
+{
+        return ((F_v_s_d / F_v_u_d) + (F_t_s_d / (1.4 * 0.7 * F_t_u_d)));
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  *
