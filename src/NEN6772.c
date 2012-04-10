@@ -382,6 +382,29 @@ UC_11_1_8
 
 
 /*!
+ * \brief NEN6772 11.1-9: Calculate the effective thickness of a plate
+ * with a countersunk hole.
+ *
+ * \version NEN 6772:2000.
+ *
+ * \image html NEN6772_11.1-9.gif
+ *
+ * \retval t_ef The effective thickness value.
+ */
+double
+t_ef
+(
+    double t_nom,
+    /*!< Nominal plate thickness, in mm. */
+    double d_vzk,
+    /*!< Depth of the countersunk hole, in mm. */
+)
+{
+        return (t_nom - 0.5 * d_vzk);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  *
