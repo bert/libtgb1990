@@ -480,6 +480,45 @@ UC_11_1_12
 
 
 /*!
+ * \brief NEN6772 11.1-13: Calculate the maximum resistance gliding
+ * capacity of a pre-tension bolt.
+ *
+ * \version NEN 6772:2000.
+ *
+ * \image html NEN6772_11.1-13.gif
+ *
+ * \retval F_g_u_d the calculated maximum resistance gliding
+ * capacity of a pre-tension bolt.
+ */
+double
+F_g_u_d
+(
+    double k_s,
+    /*!< Reduction factor for hole:\n
+     * 1.00 for holes with a normal tolerance.\n
+     * 0.85 for oversized holes.\n
+     * 0.85 for short slotted holes.\n
+     * 0.70 for long slotted holes. */
+    double m,
+    /*!< Number of contact surfaces. */
+    double mu_d,
+    /*!< Friction factor. */
+    double gamma_M,
+    /*!< Modeling factor:\n
+     * 1.25 for the extreme usability case.\n
+     * 1.10 for the usability case.\n
+     * 1.40 for extreme usability case where oversized holes are used,
+     * or where slotted holes are used parallel with the direction of
+     * the load. */
+    double F_p_d
+    /*!< The pre-tension force. */
+)
+{
+        return ((k_s * m * mu_d / gamma_M) * F_p_d);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  *
