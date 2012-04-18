@@ -373,7 +373,7 @@ UC_11_1_8
 (
     double F_t_s_d,
     /*!< Actual tension force. */
-    double F_t_u_d,
+    double F_t_u_d
     /*!< Maximum tension capacity. */
 )
 {
@@ -396,7 +396,7 @@ t_ef
 (
     double t_nom,
     /*!< Nominal plate thickness, in mm. */
-    double d_vzk,
+    double d_vzk
     /*!< Depth of the countersunk hole, in mm. */
 )
 {
@@ -447,7 +447,7 @@ UC_11_1_11
 (
     double F_g_s_rep,
     /*!< Representative shearing force. */
-    double F_g_u_d,
+    double F_g_u_d
     /*!< Maximum resistance gliding capacity. */
 )
 {
@@ -471,7 +471,7 @@ UC_11_1_12
 (
     double F_g_s_d,
     /*!< Actual shearing force. */
-    double F_g_u_d,
+    double F_g_u_d
     /*!< Maximum resistance gliding capacity. */
 )
 {
