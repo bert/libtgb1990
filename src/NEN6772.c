@@ -456,6 +456,30 @@ UC_11_1_11
 
 
 /*!
+ * \brief NEN6772 11.1-12: Calculate the Unity Check on the actual
+ * shearing force on a pre-tensiond bolt with regard to
+ * maximum gliding resistance capacity of the contact surfaces.
+ *
+ * \version NEN 6772:2000.
+ *
+ * \image html NEN6772_11.1-12.gif
+ *
+ * \retval UC_11_1_12 The Unity Check value.
+ */
+double
+UC_11_1_12
+(
+    double F_g_s_d,
+    /*!< Actual shearing force. */
+    double F_g_u_d,
+    /*!< Maximum resistance gliding capacity. */
+)
+{
+        return (F_g_s_d / F_g_u_d);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  *
