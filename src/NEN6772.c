@@ -498,18 +498,29 @@ F_g_u_d
      * 1.00 for holes with a normal tolerance.\n
      * 0.85 for oversized holes.\n
      * 0.85 for short slotted holes.\n
-     * 0.70 for long slotted holes. */
+     * 0.70 for long slotted holes.
+     */
     double m,
     /*!< Number of contact surfaces. */
     double mu_d,
-    /*!< Friction factor. */
+    /*!< Friction factor:\n
+     * 0.50 for surface treatment class A.\n
+     * 0.40 for surface treatment class B.\n
+     * 0.30 for surface treatment class C.\n
+     * 0.20 for surface treatment class D.\n
+     * 0.50 for grit or sand blasted.\n
+     * 0.20 for untreated surfaces, not painted surface or no primer
+     * applied to surface.\n
+     * 0.10 for painted surfaces or primer applied to surface.
+     */
     double gamma_M,
     /*!< Modeling factor:\n
      * 1.25 for the extreme usability case.\n
      * 1.10 for the usability case.\n
      * 1.40 for extreme usability case where oversized holes are used,
      * or where slotted holes are used parallel with the direction of
-     * the load. */
+     * the load.
+     */
     double F_p_d
     /*!< The pre-tension force. */
 )
