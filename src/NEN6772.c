@@ -519,6 +519,37 @@ F_g_u_d
 
 
 /*!
+ * \brief NEN6772 11.1-14: Calculate the tension force of a pre-tension
+ * bolt.
+ *
+ * \version NEN 6772:2000.
+ *
+ * \image html NEN6772_11.1-14.gif
+ *
+ * \retval F_p_d the calculated tension force.
+ */
+double
+F_p_d
+(
+    double k_p,
+    /*!< Reduction factor for the application method of the torque:\n
+     * 0.7 for pre-tensioning with the moment-angle method.\n
+     * 0.7 for pre-tensioning with direct tension measurement.\n
+     * 0.5 for pre-tensioning by wrung-off neck with aux. bolthead.\n
+     * 0.5 for pre-tensioning by torque-wrench.
+     */
+    double f_t_b_d,
+    /*!< Tensile strength of the bolt material according to par. 9.2 of
+     * NEN 6770. */
+    double A_b_s,
+    /*!< Cross sectional area of the bolt. */
+)
+{
+        return ((k_p * f_t_b_d * A_b_s);
+}
+
+
+/*!
  * \brief NEN6772 11.5-1: Calculate the Unity Check on bending strength
  * in a beam-column connection (beam at the end of a column).
  *
