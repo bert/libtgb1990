@@ -1,0 +1,323 @@
+commit 0496dfe44117b03ef036886145836e37eeacaee2
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:37:29 2014 +0100
+
+    Added LICENSE file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit dbdbc64721912fc990c7ab47ccc89fd5717c56a7
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:37:11 2014 +0100
+
+    Added TODO file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit efbd437a9098ce5cf934aa6341320ba0668f4f85
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:36:54 2014 +0100
+
+    Added NEWS file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit da78f3cdb8a66e6470238e454741bbd3c6c0b99c
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:36:41 2014 +0100
+
+    Added ISSUES file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit 065a44cddae220dd92272363165e4b2ff47dd384
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:35:34 2014 +0100
+
+    Added INSTALL file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit 55289988dec901a46b5b4531ebc6db9aa149eb97
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:35:02 2014 +0100
+
+    Added COPYING file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit 55220d929c7a1ecac1335023db465ba857dc72f6
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:34:46 2014 +0100
+
+    Added CONTRIBUTING file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit a7d6494f7dcd36bfad41e1807ac2bc229017c2d7
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:21:40 2014 +0100
+
+    Added BUGS file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit d7221e69d4e46a904f705b8016040899dcca24f6
+Author: bert <bert.timmerman@xs4all.nl>
+Date:   Sun Dec 21 14:21:21 2014 +0100
+
+    Added AUTHORS file.
+    
+    Signed-off-by: bert <bert.timmerman@xs4all.nl>
+
+commit a8ab40cb6bac307b4b50c208141b7efe63de011b
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Fri Apr 27 08:23:17 2012 +0200
+
+    NEN6772.c: added F_g_t_u_d().
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit 5b672f13bd12aad90525167019c1f5edfe56e803
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Fri Apr 27 00:15:41 2012 +0200
+
+    NEN6772.c: minor corrections.
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit 43d843d40c91ca99019934aff798a750d56d7ae7
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Fri Apr 27 00:08:06 2012 +0200
+
+    NEN6772.c: added F_p_d().
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit ab1c251065cbbfd962c32a1ae4c5d93db8a1d93d
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 18 21:12:57 2012 +0200
+
+    NEN6772.c: minor corrections.
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit f069a98b6867514f7c348555b8f067065c0eef16
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 18 21:10:51 2012 +0200
+
+    NEN6772.c: added F_g_u_d().
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit dffa3113bec4e913c089536bef6c2a077e5d4866
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 18 16:21:19 2012 +0200
+
+    NEN6772.c: added UC_11_1_12().
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit f46923612f9e8a1b327c89cc2eed5cb58c0c4be6
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 18 16:17:40 2012 +0200
+
+    NEN6772.c: added UC_11_1_11().
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit e8981c47e8c2c5e9d0bd5cd6f738f2b4e88a4479
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Mon Apr 16 21:31:56 2012 +0200
+
+    Ignore stuff in doc/.
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit e0f180e1ce9df72638f562aece16c2f3d5bcba04
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Tue Apr 10 21:58:18 2012 +0200
+
+    NEN6772.c: bumped up the copyright year.
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit bc28a1d872d3c12e87a8bf71968cd0638b4516d4
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Tue Apr 10 21:55:39 2012 +0200
+
+    NEN6772.c: added UC_11_1_10().
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit a62a6cdef83b2d692715648997699cf9a854d84c
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Tue Apr 10 21:50:22 2012 +0200
+
+    NEN6772.c: added t_ef().
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit 85664abcfe8a0c099ce24da3a4363995ec1c39e2
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Tue Apr 10 20:27:34 2012 +0200
+
+    NEN6772.c: added UC_11_1_8().
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit c441fc7e9897666a94d8ffc58dc8a97cb784213e
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Tue Apr 10 20:15:25 2012 +0200
+
+    NEN6772.c: added a version (year of release) of the standard.
+    
+    Removed trailing white space.
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit 4897b463511f404ba1625f74d4a9e7389706e0e3
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Tue Apr 10 07:37:43 2012 +0200
+
+    Updated the Makefile.
+    
+    Signed-off-by: Bert Timmerman <bert.timmerman@xs4all.nl>
+
+commit d085bf98b2fcdda96db9007374fa98c7636a5656
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sat Apr 30 23:33:29 2011 +0200
+
+    NEN6772: added a calculation of the reduction factor for a rivet connection.
+
+commit b610b3856721286ee6c47c756b79c157b9874638
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Fri Apr 29 00:01:55 2011 +0200
+
+    NEN6772: added a calculation of the swaging factor for a rivet connection.
+
+commit 4a8dafe3e87fc91c56687959f7af8838f3cb4ee5
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Thu Apr 28 23:05:16 2011 +0200
+
+    NEN6772: added a calculation of the ultimate tension capacity for a rivet.
+
+commit e75b264d479b77dcafc414f5e4669e356cdb429c
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Thu Apr 28 21:31:05 2011 +0200
+
+    NEN6772: added the calculation of the ultimate capacity for the shear capacity of a rivet.
+
+commit eff37deda9c7c5f95f95e399b323b1cf588f2865
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Thu Apr 28 07:47:13 2011 +0200
+
+    NEN6772: added the calculation of the ultimate capacity for the swaging capacity of a rivet.
+
+commit 15b93f21a5ee0e92f70484d3e72d48133e10e661
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 27 19:45:03 2011 +0200
+
+    NEN6772: added an Unity Check on tension and shear force on a rivet.
+
+commit 8862374df4b289af4ba227c89c54969e0c329100
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 27 08:24:47 2011 +0200
+
+    NEN6772: added an Unity Check on tension force on a rivet.
+
+commit c18b9b5feab114a05996d1f22f33cf679bf109b2
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 27 08:21:40 2011 +0200
+
+    NEN6772: added an  Unity Check on shear force on a rivet.
+
+commit 9023d360ddf4e5ce0b9fbefb298ea3f7486486c8
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 27 07:28:41 2011 +0200
+
+    NEN6772: added an Unity Check on swaging force on a rivet.#
+
+commit f96ad9bb12ee77127b7fcef45686594308243c27
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Wed Apr 27 00:41:51 2011 +0200
+
+    NEN6772: added more doxygen comments (WIP).
+
+commit 086183266903e532a37e5166e885308188675245
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Fri Apr 22 22:40:25 2011 +0200
+
+    NEN6772: added more code (WIP).
+
+commit a59d67a62071cc2bc9778bce9a03d43cab32706e
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sun Apr 17 08:00:11 2011 +0200
+
+    NEN6772: added more code (WIP).
+
+commit ffbc5a7c8c13ded9097b2fb8925ab7bd22facd76
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sat Apr 16 22:36:02 2011 +0200
+
+    Changed doxygen comments.
+
+commit bef341d84e9b5abb2b5a70f44a8b7758b5994f37
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sat Apr 16 19:31:20 2011 +0200
+
+    Added NEN6772.c (WIP).
+
+commit bd0ba6b4cb58f638a29bbd299fe3659b1c98edde
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sat Apr 16 19:30:10 2011 +0200
+
+    Minor changes in doxygen comments.
+
+commit 9070afff8aef6896383ab0dba2685648d1cc434f
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sat Apr 16 19:28:54 2011 +0200
+
+    Added tex files for generating formula images.
+
+commit 8dbcf91d47666bd53cfee9133bc706f635e85497
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sat Apr 16 18:06:15 2011 +0200
+
+    Added whitespace for better readability.
+
+commit 5680546c4a3ffe67ec02c29a0473b64db6c1e11d
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Mon Jun 9 07:53:45 2008 +0200
+
+    Added test files (003).
+
+commit 64e1c98a54f75bdb1c2c10166f62e112f6e624f0
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Mon Jun 9 07:03:00 2008 +0200
+
+    Added test files (002).
+
+commit 2f40085986c0d297ab7fb63a889854646ffa8d99
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Mon Jun 9 07:02:08 2008 +0200
+
+    Small change in the file name mentioned inside the file.
+
+commit 9b5c3a871228436d5f97e8c4297a7c3df5147b8d
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Mon Jun 9 06:47:48 2008 +0200
+
+    Added test files (001).
+
+commit 741df441240b83d1fc6c7968a4a69cad547df57e
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sun Jun 8 22:57:06 2008 +0200
+
+    Added src/test.c
+
+commit e0cb5cb5f17433719f07af8456f847a1c5073c72
+Author: Bert Timmerman <bert.timmerman@xs4all.nl>
+Date:   Sun Jun 8 12:46:02 2008 +0200
+
+    Initial commit
