@@ -62,7 +62,7 @@
  * <li> ct [-]</li>
  * <li> </ul>
  */
-enum inp_table_headings
+enum ipe_table_headings
 (
         I_name,
         I_h,
