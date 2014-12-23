@@ -3,7 +3,7 @@
  *
  * \brief This unit generates the properties of (prismatic) I-shaped
  * profiles (IPE class).
- * 
+ *
  * \author Copyright 2014 Bert Timmerman <bert.timmerman@xs4all.nl>
  *
  * This program is free software; you can redistribute it and/or modify
@@ -20,7 +20,7 @@
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
  * MA 02110-1301, USA.\n
- * 
+ *
  * This unit generates the properties of (prismatic) I-shaped profiles.\n
  * \n
  * All standard available profiles are included (whatever that means ;-)\n
