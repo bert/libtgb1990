@@ -64,6 +64,7 @@
  */
 enum inp_table_headings
 (
+        I_name,
         I_h,
         I_b,
         I_s,
